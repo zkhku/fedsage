@@ -26,15 +26,10 @@ classifier_layer_sizes=[64,32]
 
 local_test_acc_dir = root_path+'local_result/test_acc/' + dataset+"_"+str(num_owners)
 global_test_acc_file = root_path+'global_result/test_acc/' + dataset +"_"+str(num_owners)+".txt"
-
 global_classifer_file=root_path+"global_result/model/"+dataset+"_"+str(num_owners)+"classifier.h5"
-local_dataowner_info_dir=root_path +"dataowner/"+ dataset+"_"+str(num_owners)
 local_gen_dir = root_path+'local_result/model/'+dataset+"_"+str(num_owners)
-
 global_gen_nc_acc_file = root_path+'global_result/test_acc/' + dataset +"_nc_"+str(num_owners)+".txt"
-
 local_downstream_task_dir=root_path+'local_result/classifier_info/' + dataset+"_"+str(num_owners)
-server_info_dir=root_path +"global_result/server_info/" + dataset+"_"+str(num_owners)+'.h5'
 
 lr=0.001
 weight_decay=1e-4
