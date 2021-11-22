@@ -8,3 +8,12 @@
 5. Run the whole pipline with 'python ~/nips_code/src/system_test.py'.
 
 
+# If you find this work useful for your research, please cite
+
+@inproceedings{zhang2021subgraph,
+  title={Subgraph federated learning with missing neighbor generation},
+  author={Zhang, Ke and Yang, Carl and Li, Xiaoxiao and Sun, Lichao and Yiu, Siu Ming},
+  booktitle={Thirty-Fifth Conference on Neural Information Processing Systems},
+  year={2021}
+}
+
