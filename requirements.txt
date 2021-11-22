@@ -1,0 +1,10 @@
+dill==0.3.3
+Keras==2.4.3
+louvain==0.7.0
+numpy==1.19.5
+pandas==1.2.1
+scikit_learn==1.0
+scipy==1.6.0
+stellargraph==1.2.1
+tensorflow==2.4.1
+torch==1.8.0
