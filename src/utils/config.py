@@ -32,6 +32,7 @@ global_classifer_file=root_path+"global_result/model/"+dataset+"_"+str(num_owner
 local_gen_dir = root_path+'local_result/model/'+dataset+"_"+str(num_owners)
 global_gen_nc_acc_file = root_path+'global_result/test_acc/' + dataset +"_nc_"+str(num_owners)+".txt"
 local_downstream_task_dir=root_path+'local_result/classifier_info/' + dataset+"_"+str(num_owners)
+server_info_dir=root_path +"global_result/server_info/" + dataset+"_"+str(num_owners)+'.h5'
 
 a=1
 b=1
