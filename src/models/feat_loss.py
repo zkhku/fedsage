@@ -36,7 +36,8 @@ def greedy_loss(pred_feats, true_feats,pred_missing,true_missing):
                     else:
                         true_feats_tensor = true_feats[i][true_k]
 
-                    loss_ijk=F.mse_loss(pred_feats[i][pred_j].unsqueeze(0).float(),true_feats_tensor.unsqueeze(0).float()).squeeze(0)
+                    loss_ijk=F.mse_loss(pred_feats[i][pred_j].unsqueeze(0).float(),
+                                        true_feats_tensor.unsqueeze(0).float()).squeeze(0)
                     if torch.sum(loss_ijk)<torch.sum(loss[i][pred_j].data):
                         loss[i][pred_j]=loss_ijk
             else:
